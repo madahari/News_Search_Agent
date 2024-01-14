@@ -1,5 +1,3 @@
-import streamlit as st
-from newsapi import NewsApiClient
 import openai
 
 
