@@ -1,6 +1,3 @@
-import openai
-
-
 # Set your News API key and OpenAI GPT-3 API key
 news_api_key = '3094972300d84af19391a45df51b23fc'
 openai.api_key = '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'
