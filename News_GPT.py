@@ -8,7 +8,8 @@ openai.api_key = st.secrets["OPENAI_API_KEY"]
 
 # from newsapi import NewsApiClient
 # News API 클라이언트 초기화  
-newsapi = NewsApiClient(api_key='1330f0eaa57e4b6ca0d46dddc9d128ae')  # 여기에 본인의 API 키를 입력하세요.
+# newsapi = NewsApiClient(api_key='1330f0eaa57e4b6ca0d46dddc9d128ae')  # 여기에 본인의 API 키를 입력하세요.
+news_api_key = '1330f0eaa57e4b6ca0d46dddc9d128ae'
 # Set your News API key and OpenAI GPT-3 API key
 # news_api_key = '3094972300d84af19391a45df51b23fc'
 # openai.api_key = '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'
