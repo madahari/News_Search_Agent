@@ -6,6 +6,7 @@ import os
 # 환경 변수에서 API 키 로드  
 openai.api_key = st.secrets["OPENAI_API_KEY"] 
 
+from newsapi import NewsApiClient 
 # Set your News API key and OpenAI GPT-3 API key
 news_api_key = '3094972300d84af19391a45df51b23fc'
 # openai.api_key = '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'
