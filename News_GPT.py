@@ -1,6 +1,7 @@
 import streamlit as st  
 import openai  
 import os  
+from newsapi import NewsApiClient
 # from dotenv import load_dotenv  # .env 파일에서 환경 변수를 불러오기 위한 라이브러리  
 
 # 환경 변수에서 API 키 로드  
