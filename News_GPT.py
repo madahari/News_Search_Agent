@@ -1,11 +1,10 @@
 import streamlit as st  
 import openai  
 import os  
-from dotenv import load_dotenv  # .env 파일에서 환경 변수를 불러오기 위한 라이브러리  
+# from dotenv import load_dotenv  # .env 파일에서 환경 변수를 불러오기 위한 라이브러리  
 
-# .env 파일에서 API 키 로드  
-load_dotenv()  
-openai.api_key = os.getenv("OPENAI_API_KEY")
+# 환경 변수에서 API 키 로드  
+openai.api_key = st.secrets["OPENAI_API_KEY"] 
 
 # Set your News API key and OpenAI GPT-3 API key
 news_api_key = '3094972300d84af19391a45df51b23fc'
